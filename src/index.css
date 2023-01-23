@@ -1,0 +1,10 @@
+:root {
+    --std-black: #000000;
+    --std-purple: #800080;
+    --std-darkpurple: #4e004e;
+    --std-white: #ffffff;
+}
+
+* {
+    margin: 0;
+}

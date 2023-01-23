@@ -1,0 +1,27 @@
+.clone__header {
+    padding: 16px;
+    background-color: var(--std-black)
+}
+
+.navigation__bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site__logo {
+    width: 8.5vw;
+}
+
+.link__subscription {
+    text-decoration: none;
+    color: var(--std-white);
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.link__subscription--special {
+    background-color: var(--std-purple);
+    border-radius: 20px;
+}
