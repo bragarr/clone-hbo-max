@@ -1,6 +1,6 @@
 .clone__header {
     padding: 16px;
-    background-color: var(--std-black)
+    background-color: var(--light-background);
 }
 
 .navigation__bar {
@@ -12,16 +12,33 @@
 
 .site__logo {
     width: 8.5vw;
+    opacity: 1;
 }
 
 .link__subscription {
     text-decoration: none;
     color: var(--std-white);
-    padding: 10px;
+    padding: 10px 30px;
     margin: 0 5px;
+    font-size: 12px;
+    font-weight:bold;
+    letter-spacing: 2px;
+    opacity: 1;
 }
 
 .link__subscription--special {
     background-color: var(--std-purple);
     border-radius: 20px;
+    transition: 0.5s;
+}
+
+.link__subscription--special:hover {
+    background-color: var(--std-white);
+    color: var(--std-purple);
+    transition: 0.5s;
+}
+
+.teste {
+    height: 600px;
+    background-repeat: none;
 }
